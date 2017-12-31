@@ -1,0 +1,46 @@
+html, body{
+  font-family: "Open Sans", "Helvetica", "Lato", sans-serif;
+}
+body{
+  background:#f2f2f2;
+}
+*{
+  border-radius: 0 !important;
+}
+.navbar-default{
+  background: #fff;
+  margin: 0;
+}
+.navbar-default .navbar-brand{
+  margin: 0;
+  padding-top: 10px;
+}
+.navbar-default .navbar-brand small i{
+  vertical-align: sub;
+}
+.navbar-inverse{
+  background: #192F3D;
+  border-bottom: 3px solid #1274B8;
+  margin: 0;
+}
+.navbar-inverse .navbar-nav li > a{
+  color: #fff;
+}
+.navbar-inverse .navbar-nav .dropdown-menu > li > a {
+    color: #444;
+}
+.fixed-panel-size{
+  min-height: 200px;
+  max-height: 200px;
+  overflow: auto;
+}
+.panel-default .panel-heading{
+  background-color: #fff;
+}
+.panel-default .panel-heading .panel-title, table, p, .row a{
+  font-size: 13px;
+}
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    background-color: #192F3D;
+    border-color: #192F3D;
+}

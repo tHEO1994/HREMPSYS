@@ -1,0 +1,30 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: sans-serif;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: 35% 65%;
+  min-height: 100%;
+  color: #fff;
+}
+.form-column{
+  padding-top: 20%;
+  background-color: #192F3D;
+}
+.form-column h1 small i{
+  vertical-align: sub;
+  color: #1274B8;
+}
+.content-column{
+  padding-top: 20%;
+  background: radial-gradient(circle, #1D93CE, #0C5E95 80%);
+  text-align: center;
+}
+.content-column h1{
+  font-size: 63px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+}
